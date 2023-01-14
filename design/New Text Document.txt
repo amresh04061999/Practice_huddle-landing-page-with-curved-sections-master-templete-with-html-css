@@ -1,0 +1,49 @@
+<!-- Start first section -->
+    <div class="d-flex justify-contain-center align-item-center">
+      <section class="first-section d-flex flex-column  p-5">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we Build communities. You have a <br> voice,
+          but so does your audience.Create connections with Your <br>
+          usersas you engage in genuine descussion</p>
+          <div class="d-flex justify-contain-center align-item-center">
+            <button class="btn-common border-radius">Get Start For Free</button>
+          
+          </div>
+      </section>
+    </div>
+    <!-- end first section -->
+
+    <!-- Start Second Section -->
+    <section  class="second-section d-flex justify-contain-center align-item-center">
+      <img src="./images/screen-mockups.svg" alt="mobile-image" class="image2-responsive">
+    </section>
+       <!-- end Second Section -->
+
+/*  Start first section*/
+.first-section > h1 {
+  font-size: 45px;
+  color: hsl(191deg 92% 10%);
+}
+.first-section > p {
+    font-size:18px;
+    color: hsl(195deg 55% 13%);
+    padding: 30px 0;
+    text-align: center;
+  }
+  .first-section .btn-common {
+     padding: 15px 60px;
+     border: none;
+     font-size: 15px;
+     color: white;
+     background-color: hsl(322deg 98% 66%);
+     box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.175);
+    }
+/* End  first section*/
+/* Start Second section */
+.second-section>.image2-responsive {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 30px;
+  }
+/* end Second section  */
