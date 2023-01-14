@@ -10,10 +10,7 @@ body {
   width: 100%;
   height: 100%;
 }
-/* body style */
-body {
-  /* overflow: hidden; */
-}
+
 /* helper class  */
 .d-flex {
   display: flex;
@@ -94,3 +91,11 @@ body {
        box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.175);
       }
   /* End  first section*/
+  /* Start Second section */
+.second-section>.image2-responsive {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 30px;
+  }
+/* end Second section  */
