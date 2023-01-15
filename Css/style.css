@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* html body  */
 html,
 body {
@@ -15,45 +16,59 @@ body {
 .d-flex {
   display: flex;
 }
+
 .flex-column {
   flex-direction: column;
 }
+
 .justify-contain-between {
   justify-content: space-between;
 }
+
 .justify-contain-around {
   justify-content: space-around;
 }
+
 .justify-contain-center {
   justify-content: center;
 }
+
 .align-item-center {
   justify-items: center;
 }
+
 .w-100 {
   width: 100%;
 }
+
 .h-100 {
   height: 100%;
 }
+
 .border {
   border: 2px solid red;
 }
+
 .p-5 {
   padding: 60px;
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
+
 .overflow-auto {
   overflow: auto;
 }
-.text-align-center{
-    text-align: center;
+
+.text-align-center {
+  text-align: center;
 }
-.border-radius{
-    border-radius: 20px;
+
+.border-radius {
+  border-radius: 20px;
 }
+
 /* end hepler class */
 
 /* Start header */
@@ -64,6 +79,7 @@ body {
   max-width: 250px;
   height: auto;
 }
+
 /* button outlet */
 .btn-outlet {
   padding: 10px 31px;
@@ -73,70 +89,96 @@ body {
   background-color: white;
   border-color: hsl(322deg 98% 66%);
 }
+
 /* end header */
 /*  Start first section*/
-.first-section > h1 {
-    font-size: 45px;
-    color: hsl(191deg 92% 10%);
-  }
-  .first-section > p {
-      font-size:18px;
-      color: hsl(195deg 55% 13%);
-      padding: 30px 0;
-      text-align: center;
-    }
-    .first-section .btn-common {
-       padding: 15px 60px;
-       border: none;
-       font-size: 15px;
-       color: white;
-       background-color: hsl(322deg 98% 66%);
-       box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.175);
-      }
-  /* End  first section*/
-  /* Start Second section */
+.first-section>h1 {
+  font-size: 45px;
+  color: hsl(191deg 92% 10%);
+}
+
+.first-section>p {
+  font-size: 18px;
+  color: hsl(195deg 55% 13%);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.first-section .btn-common {
+  padding: 15px 60px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: hsl(322deg 98% 66%);
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.175);
+}
+
+/* End  first section*/
+/* Start Second section */
 .second-section>.image2-responsive {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    margin-top: 30px;
-  }
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-top: 30px;
+}
+
 /* end Second section  */
 
 /* third section */
-.third-section{
+.third-section {
   margin: 40px 0;
 }
-.communities-section>h2{
+
+.communities-section>h2 {
   font-size: 100px;
   color: hsl(193deg 96% 9%);
 }
-.communities-section>p{
+
+.communities-section>p {
   font-size: 25px;
   color: hsl(202deg 4% 61%);
 }
-.message-section>h2{
+
+.message-section>h2 {
   font-size: 100px;
   color: hsl(193deg 96% 9%);
   text-align: center;
 }
-.message-section>p{
+
+.message-section>p {
   font-size: 25px;
   color: hsl(202deg 4% 61%);
   text-align: center;
 }
+
 /* end third section */
 /* Start fourth Section */
 
-.image-section>img{
+.image-section>img {
   width: 400px;
 }
-.text-section>h3{
+
+.text-section>h3 {
   padding-top: 160px;
   font-size: 30px;
 }
-.text-section>p{
+
+.text-section>p {
   padding-top: 16px;
   font-size: 17px;
 }
-    /* end fourth Section  */
+
+/* end fourth Section  */
+.five-text-section>h3 {
+  padding-top: 90px;
+  font-size: 28px;
+  color: hsl(190deg 92% 10%);
+}
+
+.five-text-section>p {
+  padding-top: 16px;
+  font-size: 17px;
+  color: hsl(192deg 15% 34%);
+}
+
+/* end five Section  */
