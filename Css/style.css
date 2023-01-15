@@ -21,6 +21,9 @@ body {
 .justify-contain-between {
   justify-content: space-between;
 }
+.justify-contain-around {
+  justify-content: space-around;
+}
 .justify-contain-center {
   justify-content: center;
 }
@@ -99,3 +102,27 @@ body {
     margin-top: 30px;
   }
 /* end Second section  */
+
+/* third section */
+.third-section{
+  margin: 40px 0;
+}
+.communities-section>h2{
+  font-size: 100px;
+  color: hsl(193deg 96% 9%);
+}
+.communities-section>p{
+  font-size: 25px;
+  color: hsl(202deg 4% 61%);
+}
+.message-section>h2{
+  font-size: 100px;
+  color: hsl(193deg 96% 9%);
+  text-align: center;
+}
+.message-section>p{
+  font-size: 25px;
+  color: hsl(202deg 4% 61%);
+  text-align: center;
+}
+/* end third section */
