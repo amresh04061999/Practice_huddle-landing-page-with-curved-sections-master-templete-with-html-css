@@ -52,7 +52,9 @@ body {
 .p-5 {
   padding: 60px;
 }
-
+.m-top-4{
+  margin-top: 20px;
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -182,3 +184,8 @@ body {
 }
 
 /* end five Section  */
+/* start  seven section  */
+.Seven-section>h1{
+  font-size: 32px;
+}
+/* end  seven section  */
