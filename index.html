@@ -1,109 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" media="(max-width:576px)" href="./Css/media.css" />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="Css/style.css">
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
-</head>
-
-<body>
-  <!-- start main -->
-  <main class="overflow-auto">
-    <!-- start header -->
-    <header class="d-flex justify-contain-between align-item-center  p-5">
-      <div class="logo-imgage">
-        <img src="./images/logo.svg" alt="logo-image" class="image-responsive">
-      </div>
-      <button class="btn-outlet cursor-pointer">Try It Free</button>
-    </header>
-    <!-- end Header    -->
-    <!-- Start first section -->
-    <div class="d-flex justify-contain-center align-item-center">
-      <section class="first-section d-flex flex-column  p-5">
+  <body>
+    <!-- start main -->
+    <main class="overflow-auto">
+      <!-- start header -->
+      <header class="d-flex justify-contain-between align-item-center">
+        <div class="logo-image">
+          <img
+            src="./images/logo.svg"
+            alt="logo-image"
+            class="image-responsive"
+          />
+        </div>
+        <button class="btn-outlet cursor-pointer">Try It Free</button>
+      </header>
+      <!-- end Header    -->
+      <!-- Start first section -->
+      <section
+        class="first-section d-flex flex-column justify-contain-center align-item-center p-5 p-sm-30px"
+      >
         <h1>Build The Community Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we Build communities. You have a <br> voice,
-          but so does your audience.Create connections with Your <br>
-          usersas you engage in genuine descussion</p>
-        <div class="d-flex justify-contain-center align-item-center">
+        <p>
+          Huddle re-imagines the way we Build communities. You have a voice, but
+          so does your audience.Create connections with Your usersas you engage
+          in genuine descussion
+        </p>
+        <div class="d-flex justify-contain-center">
           <button class="btn-common border-radius">Get Start For Free</button>
-
         </div>
       </section>
-    </div>
-    <!-- end first section -->
-    <!-- Start Second Section -->
-    <section class="second-section d-flex justify-contain-center align-item-center">
-      <img src="./images/screen-mockups.svg" alt="mobile-image" class="image2-responsive">
-    </section>
-    <!-- end Second Section -->
-    <!-- third section -->
-    <section class="third-section p-5 d-flex justify-contain-around">
-      <div class="communities-section">
-        <img src="./images/icon-communities.svg" alt="groupi-svg">
+      <!-- end first section -->
+      <!-- Start Second Section -->
+      <section
+        class="second-section d-flex justify-contain-center align-item-center"
+      >
+        <img
+          src="./images/screen-mockups.svg"
+          alt="mobile-image"
+          class="image2-responsive"
+        />
+      </section>
+      <!-- end Second Section -->
+      <!-- third section -->
+      <section
+        class="third-section p-5 d-flex justify-contain-around align-item-center"
+      >
+        <div class="communities-section">
+          <img src="./images/icon-communities.svg" alt="groupi-svg" />
           <h2>1.4k+</h2>
           <p>Communities Formed</p>
-        
-      </div>
-      <div class="message-section">
-        <img src="./images/icon-messages.svg" alt="message-svg">
-          <h2>2.7 m+</h2>
+        </div>
+        <div class="message-section">
+          <img src="./images/icon-messages.svg" alt="message-svg" />
+          <h2>2.7m+</h2>
           <p>Message Send</p>
+        </div>
+      </section>
+      <!-- end third section -->
+      <!--  Start fourth Section -->
+      <div class="top-image">
+        <img src="./images/bg-section-top-desktop-1.svg" alt="top-image" />
       </div>
-    </section>
-    <!-- end third section -->
-    <!--  Start fourth Section -->
-    <div class="fourth-section p-5 d-flex justify-contain-around align-item-center">
-      <div class="text-section">
-        <h3> Grow Together</h3>
-      <p>Geaneret meaningfull discussion with your audience and build a <br>
-      strong loyal community.Think of Insightfull conversation you<br>
-      miss out on with a feedback form </p>
+      <div
+        class="fourth-section p-5 d-flex justify-contain-around align-item-center flex-sm-cloumn"
+      >
+        <div class="text-section">
+          <h3>Grow Together</h3>
+          <p>
+            Geaneret meaningfull discussion with your audience and build a
+            strong loyal community.Think of Insightfull conversation you miss
+            out on with a feedback form
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="./images/illustration-grow-together.svg" alt="image grow" />
+        </div>
       </div>
-     <div class="image-section">
-      <img src="./images/illustration-grow-together.svg" alt="image grow" >
-     </div>
-    </div>
-     <!-- end fourth Section -->
+      <div class="buttom-image">
+        <img src="./images/bg-section-bottom-desktop-1.svg" alt="top-image" />
+      </div>
+      <!-- end fourth Section -->
 
-<!--  Start five Section -->
-<div class="five-section p-5 d-flex justify-contain-around align-item-center">
-  <div class="image-section">
-   <img src="./images/illustration-flowing-conversation.svg" alt="image flowing" >
-  </div>
-  <div class="five-text-section">
-   <h3>Flowing Conversations</h3>
- <p>You wouldn't paginate  a conversation in real life so why do it online? <br>
-Our threads have just in time loading for a natural flow<br></p>
- </div>
- </div>
-  <!-- end five Section -->
-  <!--  Start six Section -->
-  <div class="fourth-section p-5 d-flex justify-contain-around align-item-center">
-    <div class="text-section">
-      <h3>Your Users</h3>
-    <p>It  takes no time at all to integrat huddle with your app's<br>
-    authentication solution.this means onace signed in to Your app,your<br>
-    users can start chatting immediatly </p>
-    </div>
-   <div class="image-section">
-    <img src="./images/illustration-your-users.svg" alt="image grow" >
-   </div>
-  </div>
-   <!-- end six Section -->
-  <!-- seven section -->
-   <div class="d-flex justify-contain-center align-item-center">
-    <section class="first-section Seven-section  p-5">
-      <h1>Ready  To Build Your Community</h1>
-      <div class="d-flex justify-contain-center align-item-center  m-top-4">
-        <button class="btn-common border-radius">Get Start For Free</button>
+      <!--  Start five Section -->
+      <div
+        class="five-section p-5 d-flex justify-contain-around align-item-center"
+      >
+        <div class="image-section">
+          <img
+            src="./images/illustration-flowing-conversation.svg"
+            alt="image flowing"
+          />
+        </div>
+        <div class="five-text-section">
+          <h3>Flowing Conversations</h3>
+          <p>
+            You wouldn't paginate a conversation in real life so why do it
+            online? Our threads have just in time loading for a natural flow
+          </p>
+        </div>
       </div>
-    </section>
-  </div>
-  <!-- end first section -->
-  </main>
-</body>
-
+      <!-- end five Section -->
+      <!--  Start six Section -->
+      <div class="top-image">
+        <img src="./images/bg-section-top-desktop-1.svg" alt="top-image" />
+      </div>
+      <div
+        class="fourth-section p-5 d-flex justify-contain-around align-item-center flex-sm-cloumn"
+      >
+        <div class="text-section">
+          <h3>Your Users</h3>
+          <p>
+            It takes no time at all to integrat huddle with your app's
+            authentication solution.this means onace signed in to Your app,your
+            users can start chatting immediatly
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="./images/illustration-your-users.svg" alt="image grow" />
+        </div>
+      </div>
+      <div class="buttom-image">
+        <img src="./images/bg-section-bottom-desktop-1.svg" alt="top-image" />
+      </div>
+      <!-- end six Section -->
+      <!-- seven section -->
+      <div class="d-flex justify-contain-center align-item-center">
+        <section class="first-section Seven-section p-5">
+          <h1>Ready To Build Your Community</h1>
+          <div class="d-flex justify-contain-center align-item-center m-top-4">
+            <button class="btn-common border-radius">Get Start For Free</button>
+          </div>
+        </section>
+      </div>
+      <!--  end seven section  -->
+      <!-- Start footer section -->
+      <div class="footer-image">
+        <img src="./images/bg-footer-top-desktop.svg" alt="footer image" />
+      </div>
+      <div class="footer-section">
+        <div class="d-flex flex-sm-cloumn">
+          <div
+            class="left-footer-section d-flex flex-column justify-contain-between align-item-center"
+          >
+            <img src="./images/logo.svg" alt="image footer" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              ratione dolores natus, porro et cum modi eaque, voluptas sed
+            </p>
+            <div>
+              <div class="phone d-flex align-item-center">
+                <img src="./images/icon-phone.svg" />
+                <span>Phone :+1-543-123-4567</span>
+              </div>
+              <div class="email d-flex align-item-center">
+                <img src="./images/icon-email.svg" />
+                <span>example@huddle.com</span>
+              </div>
+            </div>
+            <div class="social-media-wrapper d-flex align-item-center">
+              <img src="./images/icon-email.svg" class="social-media" />
+              <img src="./images/icon-email.svg" class="social-media" />
+              <img src="./images/icon-email.svg" class="social-media" />
+            </div>
+          </div>
+          <div class="right-footer-section">
+            <h3>NEWSLETTER</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              ratione dolores natus, porro et cum modi eaque, voluptas sed
+            </p>
+            <input type="text" />
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <!-- end footer section -->
+    </main>
+  </body>
 </html>
