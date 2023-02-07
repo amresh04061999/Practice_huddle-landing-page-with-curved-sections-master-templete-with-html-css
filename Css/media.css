@@ -60,6 +60,7 @@
       }
       .message-section>p {
         font-size: 16px;
+      
        
       }
       .text-section>h3 {
@@ -70,15 +71,24 @@
       }
       .fourth-section{
           padding: 20px;
+          
+      }
+      .text-section{
+        width: 100%;
       }
       .text-section>p {
         font-size: 13px;
         text-align: center;
+          opacity: 0.8;
+        
       }
 
     .five-section{
         padding: 20px;
         padding: 110px 0px;
+    }
+    .five-text-section{
+      width: 90%;
     }
       .five-text-section>h3 {
         padding-top: 50px;
@@ -157,6 +167,13 @@
       .right-footer-section >p{
         width: 100%;
       }
+      .left-footer-section>img{
+        width: 200px;
+        
+      }
+      .social-media{
+        font-size: 25px;
+        }
       .right-footer-section>input[type=text]{
         padding: 15px 50px;
       }
