@@ -132,6 +132,9 @@
         line-height: 30px;
       
       }
+      .image-wrapper::after{
+      left: 50%;
+      }
       .phone>img{
         padding-right: 10px;
         
